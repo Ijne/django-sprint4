@@ -3,7 +3,7 @@
 from pathlib import Path
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = BASE_DIR / 'templates'
 SECRET_KEY = 'django-insecure-local-development-key'
 DEBUG = True
